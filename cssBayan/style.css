@@ -2,7 +2,6 @@ body {
 	font: bold 1.5rem Arial;
 	background-color: #f2f4f7;
 	color: blue;
-
 }
 
 
@@ -13,17 +12,17 @@ h2 {
 
 .wrapper {
 	max-width: 30vw;
-	margin: 15px auto;
+	margin: 1rem auto;
 	height: fit-content;
 }
 
 .row {
 	display: block;
-	border: 1px solid #b6ced4;
-	border-radius: 5px;
+	border: 0.1rem solid #b6ced4;
+	border-radius: 0.5rem;
 	cursor: pointer;
-	padding: 15px;
-	margin-bottom: 5px;
+	padding: 1rem;
+	margin-bottom: 0.3rem;
 	background-color: #dae2f0;
 
 	transition: background .3s
@@ -35,7 +34,6 @@ h2 {
  color: black;
 }
 
-
 .image {
 	display: none;
 	padding: 1vw;
@@ -45,14 +43,13 @@ h2 {
  width: 25vw;;
 }
 
-
 input {
 	appearance: none;
 }
 
 input:checked ~ .image, input:hover ~ .image {
 	display: block;
-	width: 300px;
+	width: 20vw;
 
 }
 
