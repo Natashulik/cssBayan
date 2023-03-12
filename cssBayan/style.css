@@ -1,0 +1,66 @@
+body {
+	font: bold 1.5rem Arial;
+	background-color: #f2f4f7;
+	color: blue;
+}
+
+
+h2 {
+	text-align: center;
+	color: black;
+}
+
+.wrapper {
+	max-width: 30vw;
+	margin: 1rem auto;
+	height: fit-content;
+}
+
+.row {
+	display: block;
+	border: 0.1rem solid #b6ced4;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	padding: 1rem;
+	margin-bottom: 0.3rem;
+	background-color: #dae2f0;
+
+	transition: background .3s
+	ease-out;
+}
+
+.row:hover {
+ background-color: #b6ced4;
+ color: black;
+}
+
+.image {
+	display: none;
+	padding: 1vw;
+	}
+
+.picture {
+ width: 25vw;;
+}
+
+input {
+	appearance: none;
+}
+
+input:checked ~ .image, input:hover ~ .image {
+	display: block;
+	width: 20vw;
+
+}
+
+.icon {
+	visibility: hidden;
+	
+}
+
+input:checked +.icon, input:hover +.icon {
+	visibility: visible;
+
+}
+
+
